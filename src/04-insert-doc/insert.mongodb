@@ -1,0 +1,13 @@
+use("platzi_store")
+// Si una base de datos o colección no está creada se agrega
+db.products.insertOne({
+  name: "Product 1",
+  price: 1000
+})
+
+
+db.products.insertOne({
+  name: "Product 2",
+  price: 100
+})
+
